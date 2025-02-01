@@ -1,0 +1,12 @@
+{
+  "name": "new-relic-cypress-tests",
+  "version": "1.0.0",
+  "description": "Basic setup for applicants to show off their Cypress skills.",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  }
+}
