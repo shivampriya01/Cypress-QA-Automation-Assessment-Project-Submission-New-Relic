@@ -156,5 +156,5 @@ qa/
 ---
 
 ## Remarks
-Please go ahead and use this assessemnt project to run test automation scripts and validate accordingly.
+Please go ahead and use this assessment project to run test automation scripts and validate accordingly.
 For any further clarifications/details, feel free to reach out. Thanks!
