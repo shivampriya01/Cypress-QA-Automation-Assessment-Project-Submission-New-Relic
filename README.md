@@ -1,7 +1,8 @@
 # Cypress QA Automation Assessment Project Submission: New Relic
 
 ## Introduction
-This submission is submitted by Shivam Priya as part of QA Automation assessment for website - [WeRateDogs](https://weratedogs.com) (AUT) using Cypress. It contains all required test cases including support files along with script run commands. It also contains strategy test results for test prioritization considering right approach for prioritizing and balancing business needs and end users/customers experience.
+This submission is submitted by Shivam Priya as part of QA Automation assessment for website - [WeRateDogs](https://weratedogs.com) (AUT) using Cypress. It contains all required test cases including support files along with script run commands. 
+It also contains strategy test results for test prioritization considering right approach for prioritizing and balancing business needs and end users/customers experience for website - [CatAdoptionTeam](https://catadoptionteam.org/).
 Please find the details -
 
 ---
@@ -16,7 +17,6 @@ Please find the details -
 
 ```
 OR (use '--headed' for Headed mode run)
-
   ```bash
   npx cypress run --headed
 ```
@@ -51,8 +51,8 @@ OR (use '--headed' for Headed mode run)
 ### Strategy Test
 - **Testing Strategy and Prioritization for Cat Adoption Team Website (with sense of Sales Led Growth) - [CatAdoptionTeam](https://catadoptionteam.org/)**
   1. **Cat Adoption**
-     - Enable ease of cat adoption process for users by providing smooth navigation betweens sections and pages. It shall includes clear information on how to adopt, adoption fees, policies, locations and a list of available cats and kittens. 
-     End Goal: To convert more adoption of cats by offering seaamless workflows for information and forms, increasing sales for organization across various geo-locations and categories of cats.
+     - Enable ease of cat adoption process for users by providing smooth navigation between sections and pages. It shall includes clear information on how to adopt, adoption fees, policies, locations and a list of available cats and kittens.
+     - End Goal: To convert more adoption of cats by offering seaamless workflows for information and forms, increasing sales for organization across various geo-locations and categories of cats.
        ```bash
        it("Should display right steps cards for adoption process page", () => {});
        it("Should navigate to policies and fees page from 'How To Adopt' page", () => {});
@@ -67,7 +67,7 @@ OR (use '--headed' for Headed mode run)
 
   2. **Donation**
      - Encourage and generate more donations by ensuring easy and safe payment process. Confirmation message and thanking mail for relation-building, trust and spread of word encouraging more donations.
-     End Goal: To encourage more donation for initiatives for cats welfare and adoption process of cats.
+     - End Goal: To encourage more donation for initiatives for cats' welfare and adoption process of cats.
        ```bash
        it("Should navigate to Support page on clicking on 'Donate' button on HomePage", () => {});
        it("Should navigate to Monthly Giving program page on clicking on 'Monthly Giving' button on Support Page", () => {});
@@ -82,13 +82,13 @@ OR (use '--headed' for Headed mode run)
        ```
 
   3. **Becoming Volunteer**
-     - Information for users to know about voluteer opprtunities and have easy sign-up form and login process. Make sure they receive mail after applying and selection/rejection mail if selecetd for the process.
-     End Goal: To foster culture of volunteershio and fostering programs enabling a great ecosystem for spokesperson for adoption and intivaties for cat welfare.
+     - Information for users to know about volunteer opprtunities and have easy sign-up form and login process. Make sure they receive mail after applying and selection/rejection mail if selecetd for the process.
+     - End Goal: To foster culture of volunteershio and fostering programs enabling a great ecosystem for spokesperson for adoption and intivaties for cat welfare.
        ```bash
        it("Should display a list of available volunteer roles", () => {});
        it("Should display a list of current volunteers with details", () => {});
-       it("Should be navigated to Volunteer site when clicked on 'Current Volunteers' btn on Volunteer page", () => {});
-       it("Should be navigated to Kitten Foster Program page when clicked on 'Foster Program' btn on Volunteer page", () => {});
+       it("Should be navigated to Volunteer site when clicked on 'Current Volunteers' button on Volunteer page", () => {});
+       it("Should be navigated to Kitten Foster Program page when clicked on 'Foster Program' button on Volunteer page", () => {});
        it("Should allow all volunteers to sign up separately", () => {});
        it("Should navigate to third-party site for logging in to become a volunteer", () => {});
        it("Should submit the volunteer form after submitting correct and right details", () => {});
@@ -101,7 +101,7 @@ OR (use '--headed' for Headed mode run)
   2. *Donation* further helps and supports the organization's sustainability and mission for initiatives.
   3. *Becoming Volunteer* ensures operational support for ongoing efforts increasing engagement and accomplishments around initiatives like fostering.
 
-  Considering these crucial and high-impact feature workflows ensures shift-left testing with better results in user retention, engagemnet and ROI aligning the organization's goals while providing high value to users as well.
+  Considering these crucial and high-impact feature workflows ensures shift-left testing with better results in user retention, engagement and ROI aligning the organization's goals while providing high value to users as well.
 
 ---
 
@@ -134,7 +134,7 @@ OR (use '--headed' for Headed mode run)
 
 ## Code Repository Structure
 ```
-qa/
+[qa/]
 ├── cypress/
 │   ├── e2e/
 │   │   ├── footer.cy.js
